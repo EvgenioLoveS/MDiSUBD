@@ -6,8 +6,8 @@ def connect_db():
     try:
         connection = psycopg2.connect(
             dbname="InternetShop",
-            user="postgres",
-            password="1234",
+            user="****",
+            password="****",
             host="localhost",
             port="5432"
         )
